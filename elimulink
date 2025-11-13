@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ElimuLink Search | ElimuTech Kenya Ltd</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">
+      <img src="images/logo.png" alt="ElimuTech Logo">
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#how-it-works">How It Works</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <img src="images/app-logo.png" alt="ElimuLink Logo" class="app-logo">
+    <h1>Seamless KCSE Application Processing</h1>
+    <a href="#contact" class="cta-btn">Get Started</a>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About ElimuLink Search</h2>
+    <p>Many KCSE students face delays when applying to universities due to high portal traffic. ElimuLink automates the registration process, ensuring applications are submitted and confirmed even when official systems are busy.</p>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features">
+    <h2>Features</h2>
+    <div class="feature-list">
+      <div class="feature">
+        <h3>Easy Registration</h3>
+        <p>Quick and simple application submission.</p>
+      </div>
+      <div class="feature">
+        <h3>Real-time Processing</h3>
+        <p>Applications are processed immediately once the system allows.</p>
+      </div>
+      <div class="feature">
+        <h3>Affordable Service</h3>
+        <p>Accessible pricing for all students.</p>
+      </div>
+      <div class="feature">
+        <h3>Reliable</h3>
+        <p>Works even during high portal traffic periods.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section id="how-it-works">
+    <h2>How It Works</h2>
+    <ol>
+      <li>Enter your KCSE details.</li>
+      <li>ElimuLink submits your application automatically.</li>
+      <li>Receive confirmation once the official system processes it.</li>
+    </ol>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p>ElimuTech Kenya Ltd | <a href="http://www.inovaroute.co.ke">www.inovaroute.co.ke</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 ElimuTech Kenya Ltd. All rights reserved.</p>
+  </footer>
+</body>
+</html>
